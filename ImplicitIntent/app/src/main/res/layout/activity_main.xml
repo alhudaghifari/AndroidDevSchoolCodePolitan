@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.alhudaghifari.implicitintent.MainActivity">
+
+    <EditText
+        android:id="@+id/etLink"
+        android:hint="Tulis Link Internet"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        />
+
+    <Button
+        android:onClick="openBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buka Browser"/>
+
+    <EditText
+        android:id="@+id/etAlamat"
+        android:hint="Tulis Kota atau Alamat"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        />
+
+    <Button
+        android:onClick="openMaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buka Google Maps"/>
+
+    <EditText
+        android:id="@+id/etTextBebas"
+        android:hint="Text bebas"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        />
+
+    <Button
+        android:onClick="shareText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Text"/>
+
+</LinearLayout>

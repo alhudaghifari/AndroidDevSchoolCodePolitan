@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alhudaghifari.latihanfragment.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_above="@id/linlayButtonBawah"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/linlayButtonBawah"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:onClick="gotoFragmentHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="home"
+            android:layout_weight="1"/>
+
+        <Button
+            android:onClick="gotoFragmentGalleri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="galeri"
+            android:layout_weight="1"/>
+
+        <Button
+            android:onClick="gotoFragmentProfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="profil"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
