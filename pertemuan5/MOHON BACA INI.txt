@@ -1,0 +1,2 @@
+Belajar database ini menggunakan SQLITE bukan menggunakan room.
+Untuk peserta Pelatihan Instruktur Intala berbeda tidak menggunakan cara ini.
